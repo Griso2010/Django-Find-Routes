@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% block title %}Добавить поезд{% endblock %}
+{% block content %}
+    <link rel="stylesheet" href="/static/css/main.css">
+    <h1>Редактировать поезд</h1>
+    {% include 'form.html' with button='Сохранить' %}
+{% endblock %}
